@@ -58,7 +58,7 @@ services:
     volumes:
       - ./frontend/:/usr/src/app
     working_dir: /usr/src/app
-    command: sh -c "npm install && npm init && npm start"
+    command: sh -c "npm install && npm run start"
     ports:
       - "3000:3000"
     networks:
